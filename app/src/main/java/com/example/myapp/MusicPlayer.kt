@@ -155,7 +155,7 @@ class MusicPlayer : AppCompatActivity() {
 
 
     private fun initializeUI() {
-        //SongName = findViewById(R.id.SongName)
+        SongName = findViewById(R.id.SongName)
         volumeSeekBar = findViewById(R.id.volumeSeekBar)
         timerSeekBar = findViewById(R.id.timerSeekBar)
         pauseButton = findViewById(R.id.B_Pause)
